@@ -23,9 +23,7 @@ body {
     display: none;
 }
 
-.desktop {
-    visibility: visible;
-}
+
 
 
 
@@ -330,7 +328,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
       .row.row-desktop,
       .desktop {
-          visibility: hidden;
+          display: none;
       }
 
       .mobile {
@@ -390,7 +388,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         visibility: visible;
     }
     .desktop {
-        visibility: hidden;
+        display: none;
     }
     
 }
@@ -408,9 +406,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
     .mobile {
-        visibility: hidden;
+        display: none;
     }
-    .desktop {
-        visibility: visible;
-    }
+    
 }  
