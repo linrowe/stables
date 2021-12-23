@@ -20,7 +20,7 @@ body {
 }
 
 .row.mobile {
-    display: none;
+    visibility: hidden;
 }
 
 
