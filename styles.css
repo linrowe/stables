@@ -19,7 +19,7 @@ body {
     border: #a6a6a6 1px solid;
 }
 
-.mobile {
+.row.mobile {
     display: none;
 }
 
