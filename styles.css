@@ -20,7 +20,7 @@ body {
 }
 
 .mobile {
-    visibility: hidden;
+    visibility: none;
 }
 
 
@@ -324,14 +324,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         }
       }
 
-      .row.row-desktop,
+      /* .row.row-desktop,
       .desktop {
           visibility: hidden;
       }
 
       .mobile {
           visibility: visible;
-      }
+      } */
       /* ------------------------------ */
       .intro-box {
         display: flex;
@@ -382,28 +382,28 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
-    .mobile {
+    /* .mobile {
         visibility: visible;
     }
     .desktop {
         visibility: hidden;
-    }
+    } */
     
 }
  
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    .mobile {
+    /* .mobile {
         visibility: visible;
     }
     .desktop {
         visibility: hidden;
-    }
+    } */
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
-    .mobile {
+    /* .mobile {
         visibility: hidden;
-    }
+    } */
 }  
