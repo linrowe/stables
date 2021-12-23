@@ -324,12 +324,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         }
       }
 
-      /* .row.row-desktop,
+      .row.row-desktop,
       .desktop {
           visibility: hidden;
       }
 
-      .mobile {
+      /* .mobile {
           visibility: visible;
       } */
       /* ------------------------------ */
