@@ -326,7 +326,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
       .row.row-desktop,
       .desktop {
-          display: none;
+          visibility: hidden;
       }
 
       .mobile {
@@ -383,7 +383,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
     .mobile {
-        display: none;
+        visibility: visible;
+    }
+    .desktop {
+        visibility: hidden;
     }
     
 }
