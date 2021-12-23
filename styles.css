@@ -20,10 +20,8 @@ body {
 }
 
 .mobile {
-    display: none;
+    visibility: hidden;
 }
-
-
 
 
 
@@ -328,7 +326,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
       .row.row-desktop,
       .desktop {
-          display: none;
+          visibility: hidden;
       }
 
       .mobile {
@@ -388,7 +386,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         visibility: visible;
     }
     .desktop {
-        display: none;
+        visibility: hidden;
     }
     
 }
@@ -399,14 +397,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         visibility: visible;
     }
     .desktop {
-        display: none;
+        visibility: hidden;
     }
 }
  
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  
     .mobile {
-        display: none;
+        visibility: hidden;
     }
-    
 }  
