@@ -19,9 +19,9 @@ body {
     border: #a6a6a6 1px solid;
 }
 
-/* .mobile {
-    visibility: hidden;
-} */
+.mobile {
+    visibility: none;
+}
 
 
 
