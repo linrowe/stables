@@ -20,7 +20,11 @@ body {
 }
 
 .mobile {
-    visibility: hidden;
+    display: none;
+}
+
+.desktop {
+    visibility: visible;
 }
 
 
@@ -397,7 +401,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         visibility: visible;
     }
     .desktop {
-        visibility: hidden;
+        display: none;
     }
 }
  
