@@ -394,7 +394,10 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .mobile {
-        display: none;
+        visibility: visible;
+    }
+    .desktop {
+        visibility: hidden;
     }
 }
  
